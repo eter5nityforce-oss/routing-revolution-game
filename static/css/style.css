@@ -1,0 +1,10 @@
+/* Already handled in HTML style block, but for completeness */
+body { margin: 0; font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; }
+#header { background: #333; color: white; padding: 10px; display: flex; justify-content: space-between; }
+#main { display: flex; flex: 1; }
+#sidebar { width: 250px; background: #f4f4f4; padding: 10px; border-right: 1px solid #ccc; overflow-y: auto; }
+#network-container { flex: 1; position: relative; }
+#network { width: 100%; height: 100%; }
+.stat-box { margin-bottom: 10px; padding: 10px; background: white; border: 1px solid #ddd; }
+button { width: 100%; padding: 8px; margin-top: 5px; cursor: pointer; }
+input, select { width: 100%; padding: 5px; margin-top: 5px; box-sizing: border-box; }
